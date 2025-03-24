@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dell/CLionProjects/btc/cc/1M1d/cuckoo/sha256.c
+stdlib.h
+-
+memory.h
+-
+sha256.h
+/home/dell/CLionProjects/btc/cc/1M1d/cuckoo/sha256.h
+
+/home/dell/CLionProjects/btc/cc/1M1d/cuckoo/sha256.h
+stddef.h
+-
+

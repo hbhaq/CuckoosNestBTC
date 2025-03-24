@@ -1,0 +1,33 @@
+CuckooFilter Status:
+		SingleHashtable with tag size: 32 bits 
+		Associativity: 4
+		Total # of rows: 262144
+		Total # slots: 1048576
+
+		Keys stored: 0
+		Load factor: 0
+		Hashtable size: 4096 KB
+		bit/key:   N/A
+
+CuckooFilter Status:
+		SingleHashtable with tag size: 32 bits 
+		Associativity: 4
+		Total # of rows: 262144
+		Total # slots: 1048576
+
+		Keys stored: 0
+		Load factor: 0
+		Hashtable size: 4096 KB
+		bit/key:   N/A
+
+CuckooFilter Status:
+		SingleHashtable with tag size: 32 bits 
+		Associativity: 4
+		Total # of rows: 262144
+		Total # slots: 1048576
+
+		Keys stored: 0
+		Load factor: 0
+		Hashtable size: 4096 KB
+		bit/key:   N/A
+
