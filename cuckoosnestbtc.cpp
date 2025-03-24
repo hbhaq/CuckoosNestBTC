@@ -220,9 +220,9 @@ string confusion_matrix_bf_txin(const string& tx, int ref, int txin) {
 //MAIN FUNCTION BEGINS HERE
 int main() {
 
-    ofstream debug_hourly ("/home/dell/CLionProjects/btc/cc/4M14d/debug/debug_hourly.csv" );
-    ofstream debug_cumulative ("/home/dell/CLionProjects/btc/cc/4M14d/debug/debug_cumulative.csv" );
-    ofstream debug_info ("/home/dell/CLionProjects/btc/cc/4M14d/debug/debug_info.csv" );
+    ofstream debug_hourly ("/pathtodebug/debug/debug_hourly.csv" );
+    ofstream debug_cumulative ("/pathtodebug/debug/debug_cumulative.csv" );
+    ofstream debug_info ("/pathtodebug/debug/debug_info.csv" );
 
     CuckooFilter<size_t, 32> cuckoo_txin(total_items);
     CuckooFilter<size_t, 32> cuckoo_mempool_one(total_items);
@@ -371,7 +371,7 @@ int main() {
    // debug_rbf << "total_rbf"<<","<< "rbf_missed" << "," << "rbf_replaced" << "," <<"% replaced total"<<","<< "h_rbf" <<","<<"h_rbf_missed"<<","<<"h_rbf_replaced"<<","<<"% replaced hour"<<endl;
 
     fstream newfile;
-    string file_name = string("/home/dell/CLionProjects/btc/btcdata/network/inventory/inventory.csv");
+    string file_name = string("/pathtodata/inventory/inventory.csv");
     newfile.open(file_name,ios::in); //open a file to perform read operation using file object
 
     string line, inv_type, inv_txhash;
@@ -392,7 +392,7 @@ int main() {
 
         for (int j = 1; j <= 80; j++) {
 
-            string logs = string("/home/dell/CLionProjects/btc/btcdata/mem/" + to_string(j + 71) + ".json");
+            string logs = string("/pathtodata/mem/" + to_string(j + 71) + ".json");
             cout << logs << endl;
 
             ifstream ifs(logs);
